@@ -6,7 +6,7 @@ This report discusses the results of applying sparse dictionary learning to imag
 
 The original image was reconstructed using different numbers of atoms specified in the `config.yaml` file. The reconstructed images were displayed alongside the original image for comparison.
 
-![alt text](https://github.com/jeremy-collins/sparse-dictionary-learning/upload/main/images/jeremy_and_yann_results.png "Results")
+![alt text](https://github.com/jeremy-collins/sparse-dictionary-learning/blob/main/images/jeremy_and_yann_results.png "Results")
 
 ## Discussion
 
