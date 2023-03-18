@@ -26,6 +26,9 @@ You can install these packages using the provided `environment.yaml` file by run
 To run the code, provide the path to the input image as an argument:
 `python sparse_dict.py <path_to_image>`
 
+For example, using the image included in this repo, we can use the following command:
+`python sparse_dict.py images/jeremy_and_yann.jpg`
+
 This code will display the original image and reconstructed images using different numbers of atoms specified in `config.yaml`, where you can find additional hyperparameters for this script.
 
 ## Report
