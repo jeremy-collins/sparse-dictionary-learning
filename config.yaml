@@ -1,0 +1,4 @@
+atoms_list: [16, 32]
+max_iter: 200
+alpha: 5.0
+tol: 0.000001
