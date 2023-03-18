@@ -17,7 +17,7 @@ To run the code, you will need Python 3.8, and you can install the following pac
 - opencv-python
 - PyYAML
 
-You can install these packages using the provided `environment.yaml` file by running:
+You can install these packages using the provided `environment.yml` file by running:
 `conda env create --file environment.yml`
 
 
