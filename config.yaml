@@ -1,4 +1,4 @@
-atoms_list: [16, 32]
+atoms_list: [16, 32, 64, 128, 256]
 max_iter: 200
 alpha: 5.0
 tol: 0.000001
