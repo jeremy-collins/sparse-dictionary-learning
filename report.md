@@ -10,7 +10,7 @@ The original image was reconstructed using different numbers of atoms specified 
 
 ## Discussion
 
-As the number of atoms increases, the quality of the reconstructed image improves. However, increasing the number of atoms also increases the computational complexity of the algorithm. Therefore, a balance must be struck between image quality and computational complexity.
+Overall, sparse dictionary learning performed decently as a method for compressing images. Performance was measured using PSNR, which is an appropriate metric for this problem. As the number of atoms increases, the quality of the reconstructed image improves. However, increasing the number of atoms also increases the computational complexity of the algorithm. Therefore, a balance must be struck between image quality and computational complexity.
 
 The quality of the reconstructed image can also be affected by the choice of the sparsity constraint parameter (alpha), the maximum number of iterations for the optimization process, and the tolerance for convergence. Tuning these hyperparameters can potentially improve the quality of the reconstructed image.
 

@@ -240,6 +240,14 @@ def main(image_path):
         axes[i + 1].set_title(f'{atoms} Atoms')
         axes[i + 1].axis('off')
 
+        # calculating the mean squared error
+        mse = np.mean((image - reconstructed) ** 2)
+
+        # calculating the peak signal to noise ratio
+        psnr = 10 * np.log10(1 / mse)
+
+        print(f'atoms: {atoms}, PSNR: {psnr:.2f} dB')
+
     plt.show()
 
 if __name__ == '__main__':
